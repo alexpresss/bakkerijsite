@@ -236,8 +236,7 @@ a:hover {
 #main-slider .carousel p {
   color: white;
   font-size: 25px;
-  -webkit-text-stroke: gray;
-  -webkit-text-stroke-width: 1.5px;
+  font-weight: bold;
 }
 
 #main-slider .carousel .btn-slide {
