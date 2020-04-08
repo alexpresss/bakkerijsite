@@ -248,9 +248,16 @@ a:hover {
   display: inline-block;
 }
 
-#main-slider .carousel .slider-img{
-  text-align: right;
+#main-slider .carousel .slide-img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.slider-text{
   position: absolute;
+  top: 250px;
+  width: 100%;
 }
 
 
