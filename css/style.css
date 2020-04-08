@@ -217,7 +217,7 @@ a:hover {
 }
 
 
-#main-slider .carousel h2 {
+.slider-text h2 {
   color: #fff;
   text-transform:uppercase;
   font-size:50px;
@@ -225,15 +225,11 @@ a:hover {
 }
 
 
-#main-slider .carousel h2 span {
+.slider-text h2 span {
   color: #DE236D;
 }
 
-#main-slider .carousel h2 span spani {
-  color: #000;
-}
-
-#main-slider .carousel p {
+.slider-text p {
   color: white;
   font-size: 25px;
   font-weight: bold;
@@ -248,16 +244,16 @@ a:hover {
   display: inline-block;
 }
 
-#main-slider .carousel .slide-img{
+.slide-img{
   width: 100%;
   height: 100%;
+  filter: blur(2.5px) brightness(50%);
 }
-
 
 .slider-text{
   position: absolute;
-  top: 250px;
-  width: 100%;
+  top: 150px;
+  padding-left: 50px;
 }
 
 
