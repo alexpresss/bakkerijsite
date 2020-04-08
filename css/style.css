@@ -28,6 +28,10 @@ hi,h2,h3,h4,h5,h6 {
 	line-height:1.1em;
 }
 
+hr{
+  border: 2px solid #DE236D;
+}
+
 p {
 	color:#333;
 	font-size:13px;
@@ -91,6 +95,21 @@ a:hover {
    font-weight:600;
 }
 
+.video-container{
+  position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
 /*===========================
   Menu and Navigation
 ============================ */
@@ -99,18 +118,9 @@ a:hover {
 	padding:0;
 }
 
-.navbar-brand h1 {
-	margin-top:9px;
-	padding-top:5px;
-	float: left;
-	font-size: 25px;
-	color:#333;
-	text-transform:uppercase;
-	font-weight:900;
-}
-
-.navbar-brand h1 span {
-	color: #DE236D;
+.navbar-brand {
+  float: left;
+  padding: 0px;
 }
 
 .menu {
@@ -253,7 +263,7 @@ a:hover {
 .slider-text{
   position: absolute;
   top: 150px;
-  padding-left: 50px;
+  padding-left: 180px;
 }
 
 
@@ -638,27 +648,43 @@ ul.social-network li a {
 }
 .social-network li:hover .fa-twitter {
   color: #00abf0;
+  transition-duration: 1s;
 }
 .social-network li:hover .fa-facebook {
-  color: #39579a;
+  color: #003dc0;
+  transition-duration: 1s;
 }
 .social-network li:hover .fa-google-plus {
   color: #eb8984;
+  transition-duration: 1s;
 }
 .social-network li:hover .fa-pinterest {
   color: #c9171e;
+  transition-duration: 1s;
 }
 .social-network li:hover .fa-linkedin {
   color: #0077b5;
+  transition-duration: 1s;
 }
 .social-network li:hover .fa-youtube-play {
   color: #C84941;
+  transition-duration: 1s;
+}
+.social-network li:hover .fa-map-marked-alt{
+  color: #00ac09;
+  transition-duration: 1s;
 }
 .social-network li:hover .fa-dribbble {
   color: #EA4C89 ;
+  transition-duration: 1s;
 }
 .social-network li:hover .fa-pinterest-square {
   color: #EA4B49;
+  transition-duration: 1s;
+}
+.social-network li:hover .fa-envelope{
+  color: rgb(0, 110, 255);
+  transition-duration: 1s;
 }
 
 .copyright {
@@ -671,6 +697,11 @@ ul.social-network li a {
 	font-weight:600;
 	font-size:12px;
 	text-shadow:none;
+}
+.copyright a:hover{
+  color: #0077b5;
+  text-decoration: underline;
+  transition-duration: 1.2s;
 }
 
 /* --- services --- */
@@ -1248,7 +1279,8 @@ ul.sidebar-gallery {
 }
 
 a.scrollup{
-    color:#fff;
+  color:#fff;
+  background-color: #DE236D;
 	height:40px;
 	width:40px;
 	font-size:12px;
