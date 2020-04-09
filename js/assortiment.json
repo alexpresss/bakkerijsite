@@ -1,0 +1,100 @@
+{
+    "brood":[
+        {
+            "naam": "Bruin Ardeens",
+            "foto": "BruinArdeens.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Bruin Carré",
+            "foto": "BruinCarre.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Grof Volkoren",
+            "foto": "GrofVolkoren.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Kampioenenbrood",
+            "foto": "kampioenen.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Masai",
+            "foto": "Masai.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Maya",
+            "foto": "maya.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Melkbrood Carré",
+            "foto": "MelkbroodCarre.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Multigranen",
+            "foto": "Multigranen.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Omega-3",
+            "foto": "Omega-3.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Rogge",
+            "foto": "rogge.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Suikerbrood",
+            "foto": "Suikerbrood.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Wit Boerenbrood",
+            "foto": "WitBoerenbrood.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Wit Carré",
+            "foto": "WitCarre.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Witkap brood",
+            "foto": "witkap.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Zonnebloem",
+            "foto": "zonnebloem.jpg",
+            "text": ""
+        }
+
+    ],
+    "taarten": [
+        {
+            "naam": "",
+            "foto": ""
+        }
+
+    ],
+    "fototaarten": [
+        {
+            "naam": "",
+            "foto": ""
+        }
+
+    ],
+    "koeken": [
+        {
+            "naam": "",
+            "foto": ""
+        }
+    ]
+}
