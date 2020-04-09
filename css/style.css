@@ -429,6 +429,9 @@ a:hover {
 .historiek{
   font-size: 18px;
 }
+.popup-gallery{
+  padding-top: 50px;
+}
 
 .popup-gallery img{
   margin: 5px;
@@ -561,7 +564,7 @@ a:hover {
 
 .our-team {
 	padding:50px;
-	background:#ddd;
+  background:#ddd;
 }
 
 .our-team h3 {
@@ -577,7 +580,10 @@ a:hover {
 
 .our-team img{
 	border-radius:6px;
-	margin-top:30px;
+  margin-top:30px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
 }
 
 .grey{

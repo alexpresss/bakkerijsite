@@ -13,22 +13,22 @@
         {
             "naam": "Grof Volkoren",
             "foto": "GrofVolkoren.jpg",
-            "text": ""
+            "text": "Donker bruin brood op basis van verbeterde tarwebloem, zemelen en gebrande mout. Voor een volumineus brood met aangenaam aroma. Pluspunt: betere stoelgang."
         },
         {
             "naam": "Kampioenenbrood",
             "foto": "kampioenen.jpg",
-            "text": ""
+            "text": "Boordevol granen en zaden : gierst, soja, mais,  pompoenpitten, zonnebloempitten, bruin lijnzaad, bron van vezels, het brood voor echte kampioenen"
         },
         {
             "naam": "Masai",
             "foto": "Masai.jpg",
-            "text": ""
+            "text": "Donker (zwart) gemout meergranenbrood op basis van pompoenpitten, zonnebloempitten, lijnzaad, soja, gerst en mout. De pompoenpitten geven een knapperige toets in het zachte kruim. Pluspunt: geeft energie en vitaliteit, geeft sporters een betere prestatie."
         },
         {
             "naam": "Maya",
             "foto": "maya.jpg",
-            "text": ""
+            "text": "Een meergranensamenstelling met een overvloedige dosis zonnebloempitten, lijnzaad en sesamzaad en soyavezels. De grove zadenbrokjes geven een aangename aromatische, krokante toets aan het Maya-brood."
         },
         {
             "naam": "Melkbrood Carré",
@@ -38,17 +38,17 @@
         {
             "naam": "Multigranen",
             "foto": "Multigranen.jpg",
-            "text": ""
+            "text": "Donker (zwart) gemout meergranenbrood op basis van pompoenpitten, zonnebloempitten, lijnzaad, soja, gerst en mout. De pompoenpitten geven een knapperige toets in het zachte kruim. Pluspunt: geeft energie en vitaliteit, geeft sporters een betere prestatie."
         },
         {
             "naam": "Omega-3",
             "foto": "Omega-3.jpg",
-            "text": ""
+            "text": "Licht bruin meerzadenbrood rijk aan haverzemelen, geel en bruin lijnzaad, 2 plantaardige bronnen omega-3 vetzuren en jodium. Pluspunt: houdt uw cholesterol in bedwang, helpt bloeddruk op peil te houden, weerstand tegen ziekten en ontstekingen, goed voor conditie van hart- en bloedvaten."
         },
         {
             "naam": "Rogge",
             "foto": "rogge.jpg",
-            "text": ""
+            "text": "Met gekiemde roggegranen : bomvol voedingsvezels, laag vetpercentage, verlaagd de bloedsuikerspiegel, past perfect in koolhydraatarm dieet."
         },
         {
             "naam": "Suikerbrood",
@@ -68,33 +68,307 @@
         {
             "naam": "Witkap brood",
             "foto": "witkap.jpg",
-            "text": ""
+            "text": "ABDIJBROOD met WITKAP tripel ! Oergraan HAVER => hoog eiwitgehalte, arm aan verzadigde vetten, veel vezels, vitaminen, mineralen & caroteen, langzame suikers.​ (enkel verkrijgbaar in het weekend of op bestelling)"
         },
         {
             "naam": "Zonnebloem",
             "foto": "zonnebloem.jpg",
-            "text": ""
+            "text": "Zomers lichtbruin broodje met gemengd meel van verbeterde tarwebloem, soja & zonnebloempitten. De oranje-rode sojabrokjes en de zonnebloempitjes zorgen voor een uitzonderlijk smakelijk karakter."
         }
 
     ],
     "taarten": [
         {
-            "naam": "",
-            "foto": ""
+            "naam": "Confituurtaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Rijsttaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Frangipanne",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Appeltaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Flantaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Mattentaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Botercake met appelen",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Fruittaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Torte Della Nonna",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Gateaux taart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Foret Noire",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Javanais",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Miserable",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Frambozenbavarois",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Aardbeienbavarois",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Gateau Neige",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Profiteroltaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Flan",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Passievruchtenbavarois",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Saint-Amour",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Saint-Honoré",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Chocolademoussetaart",
+            "foto": "",
+            "text": ""
         }
 
     ],
     "fototaarten": [
         {
             "naam": "",
-            "foto": ""
+            "foto": "",
+            "text": ""
         }
-
     ],
     "koeken": [
         {
-            "naam": "",
-            "foto": ""
+            "naam": "Croissant",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Boterkoek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Boterkoek met Rozijnen",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Boterkoek met frangipanne",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Chocoladekoek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Dubbele Chocoladekoek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Deense koek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Twist",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Zebrakoek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Acht",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Nussgipfel",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Lange Rozijnenkoek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Ronde Rozijnenkoek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Pralinérol",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Maple-pecanvlecht",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Donut",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Oliebol/Boule de Berlin",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Muffin met Nutella",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Appelflap",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Roomhoorntje",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Appelbootje",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Crème-rum-rozijnen",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Glacée",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Eclair",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Rijsttaartje",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Crèmekoek",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Kriekenflap",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Frangipanne",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Confituurtaartje",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Aardbeibootje",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Appelstrüdel",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Botercake",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Ninoofse Mattentaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Broodpudding",
+            "foto": "",
+            "text": ""
         }
+
+
     ]
 }
