@@ -819,7 +819,12 @@ ul.social-network li a {
 
 .portfolio-item {
 	margin: 0;
-	padding:0;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+.portfolio-item .img-responsive{
+  border-radius: 3%;
 }
 
 .overlay {

@@ -5,6 +5,10 @@ $.getJSON("js/assortiment.json", (data) => {
     magnific();
 });
 
+$(function(){
+    loadSecondFilter();
+});
+
 function loadHTML(json){
     for (let element in json){
         list = json[element].sort((a,b) => {return a.naam.localeCompare(b.naam);});
@@ -41,4 +45,5 @@ function magnific(){
         }
       });
 }
+
 
