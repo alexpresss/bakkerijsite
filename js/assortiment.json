@@ -2,7 +2,7 @@
     "brood":[
         {
             "naam": "Bruin Ardeens",
-            "foto": "BruinArdeens.jpg",
+            "foto": "bruin.jpg",
             "text": ""
         },
         {
@@ -12,17 +12,17 @@
         },
         {
             "naam": "Grof Volkoren",
-            "foto": "GrofVolkoren.jpg",
+            "foto": "volkoren.jpg",
             "text": "Donker bruin brood op basis van verbeterde tarwebloem, zemelen en gebrande mout. Voor een volumineus brood met aangenaam aroma. Pluspunt: betere stoelgang."
         },
         {
             "naam": "Kampioenenbrood",
-            "foto": "kampioenen.jpg",
+            "foto": "kampioen.jpg",
             "text": "Boordevol granen en zaden : gierst, soja, mais,  pompoenpitten, zonnebloempitten, bruin lijnzaad, bron van vezels, het brood voor echte kampioenen"
         },
         {
             "naam": "Masai",
-            "foto": "Masai.jpg",
+            "foto": "masai.jpg",
             "text": "Donker (zwart) gemout meergranenbrood op basis van pompoenpitten, zonnebloempitten, lijnzaad, soja, gerst en mout. De pompoenpitten geven een knapperige toets in het zachte kruim. Pluspunt: geeft energie en vitaliteit, geeft sporters een betere prestatie."
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "naam": "Melkbrood Carré",
-            "foto": "MelkbroodCarre.jpg",
+            "foto": "",
             "text": ""
         },
         {
@@ -52,17 +52,17 @@
         },
         {
             "naam": "Suikerbrood",
-            "foto": "Suikerbrood.jpg",
+            "foto": "",
             "text": ""
         },
         {
             "naam": "Wit Boerenbrood",
-            "foto": "WitBoerenbrood.jpg",
+            "foto": "wit.jpg",
             "text": ""
         },
         {
             "naam": "Wit Carré",
-            "foto": "WitCarre.jpg",
+            "foto": "witCarre.jpg",
             "text": ""
         },
         {
@@ -74,6 +74,31 @@
             "naam": "Zonnebloem",
             "foto": "zonnebloem.jpg",
             "text": "Zomers lichtbruin broodje met gemengd meel van verbeterde tarwebloem, soja & zonnebloempitten. De oranje-rode sojabrokjes en de zonnebloempitjes zorgen voor een uitzonderlijk smakelijk karakter."
+        },
+        {
+            "naam": "Tijgerbrood",
+            "foto": "tijgerbrood.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Platine",
+            "foto": "platine.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Vita+",
+            "foto": "",
+            "text": "Natuurlijk evenwichtig => 40% volkoren - tarwe, haver, gierst en zonnebloempitten en sesam. Rijk aan vezels en vitaminen, een bron aan ijzer en mineralen. Een heerlijke smaak ! Een combinatie van verschillende graansoorten met natuurlijke desems, honing, sesam-& zonnebloemzaad. Een mooie, compacte en zachte textuur met een krokante korst."
+        },
+        {
+            "naam": "Spelt",
+            "foto": "",
+            "text": "ALTERNATIEF voor TARWE ! Oergraan SPELT => gezond voor lichaam & geest. Spelt is een lid van de grassenfamilie en wordt al duizenden jaren verbouwd.  Een speltkorrel is een heel hard graantje, bevat veel gluten en eiwitten. Pluspunt : voorkomt hart & vaatziekten, goed tegen galstenen, verkleint kans op borstkanker, verkleint kans op het krijgen van astma bij kinderen, effectief preventiemiddel tegen het krijgen van diabetes, niet zo snel verteerbaar."
+        },
+        {
+            "naam": "Koolhydraatarm",
+            "foto": "",
+            "text": "Vezelrijk meergranenbroodje om echt van te genieten, smaakvol met minder koolhydraten, bevat zonnebloempitten, soja en lijnzaad, Een toppertje !"
         }
 
     ],
@@ -220,7 +245,7 @@
         },
         {
             "naam": "Chocoladekoek",
-            "foto": "",
+            "foto": "chocoladekoek.jpg",
             "text": ""
         },
         {
@@ -235,7 +260,7 @@
         },
         {
             "naam": "Twist",
-            "foto": "",
+            "foto": "twister.jpg",
             "text": ""
         },
         {
@@ -250,7 +275,7 @@
         },
         {
             "naam": "Nussgipfel",
-            "foto": "",
+            "foto": "nussgipfel.jpg",
             "text": ""
         },
         {
@@ -260,7 +285,7 @@
         },
         {
             "naam": "Ronde Rozijnenkoek",
-            "foto": "",
+            "foto": "rondeRozijnenkoek.jpg",
             "text": ""
         },
         {
@@ -270,7 +295,7 @@
         },
         {
             "naam": "Maple-pecanvlecht",
-            "foto": "",
+            "foto": "pecanvlecht.jpg",
             "text": ""
         },
         {
@@ -290,17 +315,17 @@
         },
         {
             "naam": "Appelflap",
-            "foto": "",
+            "foto": "appelflap.jpg",
             "text": ""
         },
         {
             "naam": "Roomhoorntje",
-            "foto": "",
+            "foto": "hoorntje.jpg",
             "text": ""
         },
         {
             "naam": "Appelbootje",
-            "foto": "",
+            "foto": "appelbootje.jpg",
             "text": ""
         },
         {
@@ -315,16 +340,21 @@
         },
         {
             "naam": "Eclair",
-            "foto": "",
+            "foto": "eclair.jpg",
             "text": ""
         },
         {
             "naam": "Rijsttaartje",
-            "foto": "",
+            "foto": "rijsttaartje.jpg",
             "text": ""
         },
         {
-            "naam": "Crèmekoek",
+            "naam": "Crèmekoek met suiker",
+            "foto": "cremekoekSuiker.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Crèmekoek met chocolade",
             "foto": "",
             "text": ""
         },
@@ -335,7 +365,7 @@
         },
         {
             "naam": "Frangipanne",
-            "foto": "",
+            "foto": "frangipanne.jpg",
             "text": ""
         },
         {
