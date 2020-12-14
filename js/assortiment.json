@@ -37,7 +37,7 @@
         },
         {
             "naam": "Multigranen",
-            "foto": "Multigranen.jpg",
+            "foto": "multi.jpg",
             "text": "Donker (zwart) gemout meergranenbrood op basis van pompoenpitten, zonnebloempitten, lijnzaad, soja, gerst en mout. De pompoenpitten geven een knapperige toets in het zachte kruim. Pluspunt: geeft energie en vitaliteit, geeft sporters een betere prestatie."
         },
         {
@@ -52,7 +52,7 @@
         },
         {
             "naam": "Suikerbrood",
-            "foto": "",
+            "foto": "suikerbrood.jpg",
             "text": ""
         },
         {
@@ -92,13 +92,18 @@
         },
         {
             "naam": "Spelt",
-            "foto": "",
+            "foto": "spelt.jpg",
             "text": "ALTERNATIEF voor TARWE ! Oergraan SPELT => gezond voor lichaam & geest. Spelt is een lid van de grassenfamilie en wordt al duizenden jaren verbouwd.  Een speltkorrel is een heel hard graantje, bevat veel gluten en eiwitten. Pluspunt : voorkomt hart & vaatziekten, goed tegen galstenen, verkleint kans op borstkanker, verkleint kans op het krijgen van astma bij kinderen, effectief preventiemiddel tegen het krijgen van diabetes, niet zo snel verteerbaar."
         },
         {
             "naam": "Koolhydraatarm",
             "foto": "",
             "text": "Vezelrijk meergranenbroodje om echt van te genieten, smaakvol met minder koolhydraten, bevat zonnebloempitten, soja en lijnzaad, Een toppertje !"
+        },
+        {
+            "naam": "Rozijnenbrood",
+            "foto": "rozijnenbrood.jpg",
+            "text": ""
         }
 
     ],
@@ -235,7 +240,7 @@
         },
         {
             "naam": "Boterkoek met Rozijnen",
-            "foto": "",
+            "foto": "boterKoekRozijnen.jpg",
             "text": ""
         },
         {
@@ -280,7 +285,7 @@
         },
         {
             "naam": "Lange Rozijnenkoek",
-            "foto": "",
+            "foto": "langeRozijnenkoek.jpg",
             "text": ""
         },
         {
