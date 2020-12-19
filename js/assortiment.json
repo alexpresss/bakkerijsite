@@ -27,7 +27,7 @@
         },
         {
             "naam": "Maya",
-            "foto": "",
+            "foto": "maya.jpg",
             "text": "Een meergranensamenstelling met een overvloedige dosis zonnebloempitten, lijnzaad en sesamzaad en soyavezels. De grove zadenbrokjes geven een aangename aromatische, krokante toets aan het Maya-brood."
         },
         {
@@ -87,7 +87,7 @@
         },
         {
             "naam": "Vita+",
-            "foto": "",
+            "foto": "vita+.jpg",
             "text": "Natuurlijk evenwichtig => 40% volkoren - tarwe, haver, gierst en zonnebloempitten en sesam. Rijk aan vezels en vitaminen, een bron aan ijzer en mineralen. Een heerlijke smaak ! Een combinatie van verschillende graansoorten met natuurlijke desems, honing, sesam-& zonnebloemzaad. Een mooie, compacte en zachte textuur met een krokante korst."
         },
         {
@@ -230,7 +230,7 @@
     "koeken": [
         {
             "naam": "Croissant",
-            "foto": "",
+            "foto": "croissant.jpg",
             "text": ""
         },
         {
@@ -275,7 +275,7 @@
         },
         {
             "naam": "Acht",
-            "foto": "",
+            "foto": "acht.jpg",
             "text": ""
         },
         {
@@ -305,7 +305,17 @@
         },
         {
             "naam": "Donut",
-            "foto": "",
+            "foto": "donut.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Donut met banaan",
+            "foto": "donutBanaan.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Donut met aardbei",
+            "foto": "donutAardbei.jpg",
             "text": ""
         },
         {
@@ -375,7 +385,7 @@
         },
         {
             "naam": "Confituurtaartje",
-            "foto": "",
+            "foto": "confituurtaartje.jpg",
             "text": ""
         },
         {
@@ -401,6 +411,11 @@
         {
             "naam": "Broodpudding",
             "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Worstenbroodje",
+            "foto": "worstenbroodje.jpg",
             "text": ""
         }
 

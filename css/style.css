@@ -869,7 +869,16 @@ ul.social-network li a {
   margin-bottom: 20px;
 }
 
+.overlay h3,p{
+  text-align: justify;
+  text-align-last: center;
+}
+
 .overlay a:hover {
+  color: #DE236D;
+}
+
+.overlay a:focus {
   color: #DE236D;
 }
 
