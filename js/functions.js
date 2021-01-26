@@ -5,7 +5,16 @@ jQuery(function ($) {
     $('#main-slider.carousel').carousel({
        interval: 4000
     });
+
+    let slogans = $(".slogan");
+    let index = -1;
+    function nextSlogan(){
+      ++index;
+      slogans.eq(index % slogans.length).fadeIn(2000).delay(2000).fadeOut(2000, nextSlogan);
+    }
+    nextSlogan();
   });
+
 
 
   //Initiat WOW JS

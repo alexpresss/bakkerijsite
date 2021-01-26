@@ -266,6 +266,9 @@ a:hover {
   margin-top: 140px;
 }
 
+.slogan{
+  display: none;
+}
 
 .slider-text h2 {
   color: #fff;
