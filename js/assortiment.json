@@ -3,12 +3,12 @@
         {
             "naam": "Bruin Ardeens",
             "foto": "bruin.jpg",
-            "text": ""
+            "text": "Gemaakt met tarwebloem, zemelen, roggemeel en verse gist. Ideaal voor je dagdagelijkse consumptie."
         },
         {
             "naam": "Bruin Carré",
             "foto": "BruinCarre.jpg",
-            "text": ""
+            "text": "Gemaakt met tarwebloem, zemelen, roggemeel en verse gist. Ideaal voor je dagdagelijkse consumptie."
         },
         {
             "naam": "Grof Volkoren",
@@ -32,8 +32,8 @@
         },
         {
             "naam": "Melkbrood Carré",
-            "foto": "",
-            "text": ""
+            "foto": "melkbrood.jpg",
+            "text": "Een zacht luxebrood gemaakt met melk en echte boter voor een luchtig en smeuïge smaak."
         },
         {
             "naam": "Multigranen",
@@ -53,17 +53,17 @@
         {
             "naam": "Suikerbrood",
             "foto": "suikerbrood.jpg",
-            "text": ""
+            "text": "Gemaakt op basis van melkbrood. De toegevoegde suikerparels geven het brood een zoete maar overheerlijke smaak."
         },
         {
             "naam": "Wit Boerenbrood",
             "foto": "wit.jpg",
-            "text": ""
+            "text": "Vervaardigd uit witte bloem van lokale oorsprong op basis van tarwe dat een constante kwaliteit garandeert. Gekneed en gebakken met veel passie sinds 1970!"
         },
         {
             "naam": "Wit Carré",
             "foto": "witCarre.jpg",
-            "text": ""
+            "text": "Vervaardigd uit witte bloem van lokale oorsprong op basis van tarwe dat een constante kwaliteit garandeert. Gekneed en gebakken met veel passie sinds 1970!"
         },
         {
             "naam": "Witkap brood",
@@ -78,12 +78,12 @@
         {
             "naam": "Tijgerbrood",
             "foto": "tijgerbrood.jpg",
-            "text": ""
+            "text": "Vervaardigd uit witte bloem van lokale oorsprong op basis van tarwe dat een constante kwaliteit garandeert. Gekneed en gebakken met veel passie sinds 1970! Afgewerkt met een krokant korstje."
         },
         {
             "naam": "Platine",
             "foto": "platine.jpg",
-            "text": ""
+            "text": "Vervaardigd uit witte bloem van lokale oorsprong op basis van tarwe dat een constante kwaliteit garandeert. Gekneed en gebakken met veel passie sinds 1970!"
         },
         {
             "naam": "Vita+",
@@ -98,17 +98,17 @@
         {
             "naam": "Koolhydraatarm",
             "foto": "koolhydraat.jpg",
-            "text": "Vezelrijk meergranenbroodje om echt van te genieten, smaakvol met minder koolhydraten, bevat zonnebloempitten, soja en lijnzaad, Een toppertje !"
+            "text": "Vezelrijk meergranenbroodje om echt van te genieten, smaakvol met minder koolhydraten, bevat zonnebloempitten, soja en lijnzaad, Een toppertje!"
         },
         {
             "naam": "Rozijnenbrood",
             "foto": "rozijnenbrood.jpg",
-            "text": ""
+            "text": "Een luxe brood op basis van melkbrood met rozijnen."
         },
         {
             "naam": "Chocoladebrood",
             "foto": "chocoladeBrood.jpg",
-            "text": ""
+            "text": "Gemaakt op basis van melkbrood waar bruine suiker, cacao en chocoladedruppels van Callebaut aan worden toegevoegd voor de ultieme chocoladesmaak."
         }
 
     ],
