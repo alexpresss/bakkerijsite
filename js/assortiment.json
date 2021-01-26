@@ -42,7 +42,7 @@
         },
         {
             "naam": "Omega-3",
-            "foto": "",
+            "foto": "omega.jpg",
             "text": "Licht bruin meerzadenbrood rijk aan haverzemelen, geel en bruin lijnzaad, 2 plantaardige bronnen omega-3 vetzuren en jodium. Pluspunt: houdt uw cholesterol in bedwang, helpt bloeddruk op peil te houden, weerstand tegen ziekten en ontstekingen, goed voor conditie van hart- en bloedvaten."
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "naam": "Zonnebloem",
-            "foto": "",
+            "foto": "zonnebloem.jpg",
             "text": "Zomers lichtbruin broodje met gemengd meel van verbeterde tarwebloem, soja & zonnebloempitten. De oranje-rode sojabrokjes en de zonnebloempitjes zorgen voor een uitzonderlijk smakelijk karakter."
         },
         {
@@ -97,12 +97,17 @@
         },
         {
             "naam": "Koolhydraatarm",
-            "foto": "",
+            "foto": "koolhydraat.jpg",
             "text": "Vezelrijk meergranenbroodje om echt van te genieten, smaakvol met minder koolhydraten, bevat zonnebloempitten, soja en lijnzaad, Een toppertje !"
         },
         {
             "naam": "Rozijnenbrood",
             "foto": "rozijnenbrood.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Chocoladebrood",
+            "foto": "chocoladeBrood.jpg",
             "text": ""
         }
 
@@ -110,7 +115,7 @@
     "taarten": [
         {
             "naam": "Confituurtaart",
-            "foto": "",
+            "foto": "confituurtaart.jpg",
             "text": ""
         },
         {
@@ -124,13 +129,28 @@
             "text": ""
         },
         {
-            "naam": "Appeltaart",
+            "naam": "Frangipanne met appel",
             "foto": "",
             "text": ""
         },
         {
+            "naam": "Frangipanne met peer",
+            "foto": "frangipannePeer.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Appeltaart",
+            "foto": "appeltaart.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Bedekte appeltaart",
+            "foto": "appeltaartBedekt.jpg",
+            "text": ""
+        },
+        {
             "naam": "Flantaart",
-            "foto": "",
+            "foto": "flan.jpg",
             "text": ""
         },
         {
@@ -140,7 +160,7 @@
         },
         {
             "naam": "Botercake met appelen",
-            "foto": "",
+            "foto": "botercakeAppel.jpg",
             "text": ""
         },
         {
@@ -194,11 +214,6 @@
             "text": ""
         },
         {
-            "naam": "Flan",
-            "foto": "",
-            "text": ""
-        },
-        {
             "naam": "Passievruchtenbavarois",
             "foto": "",
             "text": ""
@@ -216,6 +231,26 @@
         {
             "naam": "Chocolademoussetaart",
             "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Chocoladecake met peer en amandelen",
+            "foto": "chocoladecakePeerAmandel.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Cheesecake",
+            "foto": "cheesecake.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Driekoningentaart",
+            "foto": "driekoningen.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Kriekentaart",
+            "foto": "kriekentaart.jpg",
             "text": ""
         }
 
@@ -235,7 +270,7 @@
         },
         {
             "naam": "Boterkoek",
-            "foto": "",
+            "foto": "boterkoek.jpg",
             "text": ""
         },
         {
@@ -245,7 +280,7 @@
         },
         {
             "naam": "Boterkoek met frangipanne",
-            "foto": "",
+            "foto": "boterkoekFrangipanne.jpg",
             "text": ""
         },
         {
@@ -255,12 +290,12 @@
         },
         {
             "naam": "Dubbele Chocoladekoek",
-            "foto": "",
+            "foto": "dubbeleChocoladekoek.jpg",
             "text": ""
         },
         {
             "naam": "Deense koek",
-            "foto": "",
+            "foto": "deensekoek.jpg",
             "text": ""
         },
         {
@@ -294,11 +329,6 @@
             "text": ""
         },
         {
-            "naam": "Pralinérol",
-            "foto": "",
-            "text": ""
-        },
-        {
             "naam": "Maple-pecanvlecht",
             "foto": "pecanvlecht.jpg",
             "text": ""
@@ -319,13 +349,13 @@
             "text": ""
         },
         {
-            "naam": "Oliebol/Boule de Berlin",
-            "foto": "",
+            "naam": "Boule de Berlin/Oliebol",
+            "foto": "oliebol.jpg",
             "text": ""
         },
         {
             "naam": "Muffin met Nutella",
-            "foto": "",
+            "foto": "muffin.jpg",
             "text": ""
         },
         {
@@ -350,7 +380,7 @@
         },
         {
             "naam": "Glacée",
-            "foto": "",
+            "foto": "glacee.jpg",
             "text": ""
         },
         {
@@ -370,7 +400,7 @@
         },
         {
             "naam": "Crèmekoek met chocolade",
-            "foto": "",
+            "foto": "cremekoekChoco.jpg",
             "text": ""
         },
         {
@@ -405,7 +435,7 @@
         },
         {
             "naam": "Ninoofse Mattentaart",
-            "foto": "",
+            "foto": "mattentaart.jpg",
             "text": ""
         },
         {
