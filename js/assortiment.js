@@ -3,10 +3,13 @@ let container = $(".portfolio-items");
 $.getJSON("js/assortiment.json", (data) => {
     loadHTML(data);
     magnific();
+    
 });
 
 $(function(){
-    loadSecondFilter();
+    setTimeout(() => {
+        $('[data-filter=".brood"]').click();
+    },500);
 });
 
 function loadHTML(json){
