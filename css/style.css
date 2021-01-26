@@ -61,13 +61,27 @@ a:hover {
   padding: 8px 20px;
   background: #DE236D;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 8px;
   border: none;
-  margin-top: 10px;
+  margin: 10px;
+}
+
+.btn-primary:hover{
+  padding: 8px 20px;
+  background:#fff;
+  color: #DE236D;
+  border-radius: 8px;
+  border-color: #DE236D;
+  border: solid;
+  border-width: thin;
+  margin: 10px;
 }
 
 .btn-primary a {
   color: #fff;
+}
+.btn-primary a:hover{
+  color: #DE236D;
 }
 
 .text-center h2 {
@@ -1048,4 +1062,28 @@ a.scrollup:hover {
   opacity: 1;
   background-color: #ddd;
   color: #DE236D;
+}
+
+/* --- 404 --- */
+
+.error{
+  padding: 50px;
+}
+
+.error h1{
+  color:#333333;
+  font-size: 200px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.error h2{
+  margin: 0px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.error p{
+  padding-top: 10px;
+  font-size: 18px;
 }
