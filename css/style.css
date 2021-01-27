@@ -361,7 +361,17 @@ a:hover {
   }
 
   .slider-text {
-    display: none;
+    padding: 0px;
+    position: absolute;
+    top: 55px;
+  }
+
+  .slider-text h2{
+    font-size: 20px;
+  }
+
+  .slider-text .slogan {
+    font-size: 12px;
   }
 
   #main-slider .carousel .slide-margin {
@@ -468,6 +478,78 @@ a:hover {
 
 .contact-info {
   color: #000;
+}
+
+.icons .icon-col{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icons .icon-col .hi-icon-wrap{
+  width: 280px;
+}
+
+@media (max-width: 768px){
+  .icons .text-center i{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 30px;
+    background: #DE236D;
+    border-radius: 50%;
+  }
+
+  .icons .text-center i img{
+    width: 40px;
+    color: #fff;
+    background: #DE236D;
+    border-radius: 50%
+  }
+
+  .feature{
+    padding: 0px;
+  }
+
+  .icons .icon-col .hi-icon-wrap{
+    width: 140px;
+  }
+
+  .icons h2{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 600px){
+  .icons .text-center i{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 20px;
+    background: #DE236D;
+    border-radius: 50%;
+  }
+
+  .icons .text-center i img{
+    width: 22px;
+    color: #fff;
+    background: #DE236D;
+    border-radius: 50%
+  }
+
+  .feature{
+    padding: 0px;
+  }
+
+  .icons .icon-col .hi-icon-wrap{
+    width: 75px;
+  }
+
+  .icons h2{
+    font-size: 10px;
+  }
 }
 
 /* --- about us --- */
@@ -692,7 +774,7 @@ ul.social-network {
 
 ul.social-network li {
   display: inline;
-  margin: 0 18px;
+  margin: 0 10px;
   font-size: 25px;
 }
 
@@ -707,6 +789,17 @@ ul.social-network li a {
 
 .social-network li:hover .fa-facebook {
   color: #003dc0;
+  transition-duration: 1s;
+}
+
+.social-network li:hover .fa-instagram {
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
   transition-duration: 1s;
 }
 
@@ -1089,4 +1182,13 @@ a.scrollup:hover {
 .error p{
   padding-top: 10px;
   font-size: 18px;
+}
+
+@media(max-width:768px){
+  .error h1{
+    color:#333333;
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0px;
+  }
 }
