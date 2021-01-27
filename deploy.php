@@ -1,7 +1,7 @@
 <?php
 
 if($_POST["payload"]){
-    shell_exec('echo "gelukt" > test.txt');
+    shell_exec("cd /var/www/html/bakkerijsite && git pull");
 }
 
 ?>
