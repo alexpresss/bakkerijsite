@@ -112,156 +112,6 @@
         }
 
     ],
-    "taarten": [
-        {
-            "naam": "Confituurtaart",
-            "foto": "confituurtaart.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Rijsttaart",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Frangipanne",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Frangipanne met appel",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Frangipanne met peer",
-            "foto": "frangipannePeer.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Appeltaart",
-            "foto": "appeltaart.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Bedekte appeltaart",
-            "foto": "appeltaartBedekt.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Flantaart",
-            "foto": "flan.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Mattentaart",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Botercake met appelen",
-            "foto": "botercakeAppel.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Fruittaart",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Torte Della Nonna",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Gateaux taart",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Foret Noire",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Javanais",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Miserable",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Frambozenbavarois",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Aardbeienbavarois",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Gateau Neige",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Profiteroltaart",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Passievruchtenbavarois",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Saint-Amour",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Saint-Honoré",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Chocolademoussetaart",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Chocoladecake met peer en amandelen",
-            "foto": "chocoladecakePeerAmandel.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Cheesecake",
-            "foto": "cheesecake.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Driekoningentaart",
-            "foto": "driekoningen.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Kriekentaart",
-            "foto": "kriekentaart.jpg",
-            "text": ""
-        }
-
-    ],
-    "fototaarten": [
-        {
-            "naam": "",
-            "foto": "",
-            "text": ""
-        }
-    ],
     "koeken": [
         {
             "naam": "Croissant",
@@ -450,5 +300,172 @@
         }
 
 
+    ],
+    "taarten": [
+        {
+            "naam": "Confituurtaart",
+            "foto": "confituurtaart.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Rijsttaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Frangipanne",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Frangipanne met appel",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Frangipanne met peer",
+            "foto": "frangipannePeer.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Appeltaart",
+            "foto": "appeltaart.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Bedekte appeltaart",
+            "foto": "appeltaartBedekt.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Flantaart",
+            "foto": "flan.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Mattentaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Botercake met appelen",
+            "foto": "botercakeAppel.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Fruittaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Torte Della Nonna",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Gateaux taart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Foret Noire",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Javanais",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Miserable",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Frambozenbavarois",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Aardbeienbavarois",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Gateau Neige",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Profiteroltaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Passievruchtenbavarois",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Saint-Amour",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Saint-Honoré",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Chocolademoussetaart",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Chocoladecake met peer en amandelen",
+            "foto": "chocoladecakePeerAmandel.jpg",
+            "text": ""
+        },
+        {
+            "naam": "American Cheesecake",
+            "foto": "cheesecake.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Kriekentaart",
+            "foto": "kriekentaart.jpg",
+            "text": ""
+        }
+
+    ],
+    "fototaarten": [
+        {
+            "naam": "",
+            "foto": "",
+            "text": ""
+        }
+    ],
+    "special": [
+        {
+            "naam": "Driekoningentaart",
+            "foto": "driekoningen.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Chocoladebewerking",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "Marsepeinbewerking",
+            "foto": "",
+            "text": ""
+        },
+        {
+            "naam": "American Cakes",
+            "foto": "americanCake.jpg",
+            "text": ""
+        }
     ]
 }
