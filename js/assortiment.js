@@ -1,19 +1,25 @@
 let container = $(".portfolio-items");
 
-$.getJSON("js/assortiment.json", (data) => {
-    loadHTML(data);
-    magnific();
-}).done(() => {
-    setTimeout(() =>{
-        $('[data-filter=".brood"]').trigger("click");
-    },2500);
-});
+// $.getJSON({'url':"js/assortiment.json", 'async':false}, (data) => {
+//     loadHTML(data);
+//     magnific();
+// }).done(() => {
+//     // setTimeout(() =>{
+//     //     $('[data-filter=".brood"]').trigger("click");
+//     // },2500);
+// });
 
 
 // $(function(){
-//     setTimeout(() => {
-//         $('[data-filter=".brood"]').trigger("click");
-//     },5000);
+//     $.ajax({
+//         'async': false,
+//         'url': "js/assortiment.json",
+//         'success': function (data) {
+//             loadHTML(data);
+//             magnific();
+//         }
+//     });
+//     $('[data-filter=".brood"]').trigger("click");
 // });
 
 function loadHTML(json){

@@ -20,7 +20,7 @@ jQuery(function ($) {
   //Initiat WOW JS
   new WOW().init();
 
-  $(window).scroll(function () {
+  $(window).on("scroll", function () {
     if ($(this).scrollTop() > 100) {
       $('.scrollup').fadeIn();
     } else {
@@ -33,7 +33,7 @@ jQuery(function ($) {
   });
 
   // portfolio filter
-  $(window).load(function () {
+  $(window).on("load", function () {
     'use strict';
     var $portfolio_selectors = $('.portfolio-filter >li>a');
     var $portfolio = $('.portfolio-items');
