@@ -3,14 +3,18 @@ let container = $(".portfolio-items");
 $.getJSON("js/assortiment.json", (data) => {
     loadHTML(data);
     magnific();
-    
+}).done(() => {
+    setTimeout(() =>{
+        $('[data-filter=".brood"]').trigger("click");
+    },2500);
 });
 
-$(function(){
-    setTimeout(() => {
-        $('[data-filter=".brood"]').click();
-    },500);
-});
+
+// $(function(){
+//     setTimeout(() => {
+//         $('[data-filter=".brood"]').trigger("click");
+//     },5000);
+// });
 
 function loadHTML(json){
     for (let element in json){
