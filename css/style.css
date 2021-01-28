@@ -203,8 +203,23 @@ a:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
+@media (max-width: 992px){
+  .navbar-header .navbar-brand img {
+    width: 200px;
+  }
 
-@media (max-width: 768px) {
+  .navbar, .navigation{
+    height: 50px;
+  }
+
+  .nav-tabs>li>a {
+    border-radius: 0;
+    color: #fff;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 767px) {
   .navbar-brand {
     padding-top: 6px;
   }
@@ -490,7 +505,7 @@ a:hover {
   width: 280px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
   .icons .text-center i{
     font-size: 40px;
     margin-top: 70px;
@@ -1184,7 +1199,7 @@ a.scrollup:hover {
   font-size: 18px;
 }
 
-@media(max-width:768px){
+@media(max-width:767px){
   .error h1{
     color:#333333;
     font-size: 150px;
