@@ -10,17 +10,20 @@ let container = $(".portfolio-items");
 // });
 
 
-// $(function(){
-//     $.ajax({
-//         'async': false,
-//         'url': "js/assortiment.json",
-//         'success': function (data) {
-//             loadHTML(data);
-//             magnific();
-//         }
-//     });
-//     $('[data-filter=".brood"]').trigger("click");
-// });
+$(function(){
+    $.ajax({
+        'async': false,
+        'url': "js/assortiment.json",
+        'success': function (data) {
+            loadHTML(data);
+            magnific();
+            setTimeout(() =>{
+                  $('[data-filter=".brood"]').trigger("click");
+            },2500);
+        }
+    });
+    $('[data-filter=".brood"]').trigger("click");
+});
 
 function loadHTML(json){
     for (let element in json){
