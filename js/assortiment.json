@@ -290,7 +290,7 @@
         },
         {
             "naam": "Broodpudding",
-            "foto": "",
+            "foto": "bodding.jpg",
             "text": ""
         },
         {
@@ -437,9 +437,57 @@
             "foto": "kriekentaart.jpg",
             "text": ""
         }
+        ,
+        {
+            "naam": "Bedekte kriekentaart",
+            "foto": "kriekentaartBedekt.jpg",
+            "text": ""
+        }
 
     ],
-    "fototaarten": [
+    "gebak": [
+        {
+            "naam": "Crème au beurre chocolade",
+            "foto": "cbChocolade.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Crème au beurre grand marnier",
+            "foto": "cbGrandMarnier.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Crème au beurre mokka",
+            "foto": "cbMokka.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Crème au beurre praliné",
+            "foto": "cbPralinee.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Crème au beurre vanille",
+            "foto": "cbVanille.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Kardinaalshoedje",
+            "foto": "kardinaalshoedje.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Zwaantje",
+            "foto": "zwaantje.jpg",
+            "text": ""
+        }
+    ],
+    "seizoen": [
+        {
+            "naam": "Driekoningentaart",
+            "foto": "driekoningen.jpg",
+            "text": ""
+        },
         {
             "naam": "",
             "foto": "",
@@ -448,23 +496,13 @@
     ],
     "special": [
         {
-            "naam": "Driekoningentaart",
-            "foto": "driekoningen.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Chocoladebewerking",
-            "foto": "",
-            "text": ""
-        },
-        {
-            "naam": "Marsepeinbewerking",
-            "foto": "",
-            "text": ""
-        },
-        {
             "naam": "American Cakes",
             "foto": "americanCake.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Fototaarten",
+            "foto": "",
             "text": ""
         }
     ]
