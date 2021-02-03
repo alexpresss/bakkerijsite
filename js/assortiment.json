@@ -309,12 +309,12 @@
         },
         {
             "naam": "Rijsttaart",
-            "foto": "",
+            "foto": "rijsttaart.jpg",
             "text": ""
         },
         {
             "naam": "Frangipanne",
-            "foto": "",
+            "foto": "frangipannetaart.jpg",
             "text": ""
         },
         {
@@ -328,8 +328,8 @@
             "text": ""
         },
         {
-            "naam": "Appeltaart",
-            "foto": "appeltaart.jpg",
+            "naam": "Heidelbergseappeltaart",
+            "foto": "heidelbergseAppeltaart.jpg",
             "text": ""
         },
         {
@@ -343,8 +343,13 @@
             "text": ""
         },
         {
-            "naam": "Mattentaart",
-            "foto": "",
+            "naam": "Flan Bresilienne",
+            "foto": "flanBresilienne.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Flan Advokaat",
+            "foto": "flanAdvokaat.jpg",
             "text": ""
         },
         {
@@ -354,15 +359,79 @@
         },
         {
             "naam": "Fruittaart",
-            "foto": "",
+            "foto": "fruittaart.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Fruittaart met bladerdeeg",
+            "foto": "ftBladerdeeg.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Fruittaart met slagroom",
+            "foto": "ftSlagroom.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Fruittaart met zanddeeg & slagroom",
+            "foto": "ftZanddeegSlagroom.jpg",
             "text": ""
         },
         {
             "naam": "Torte Della Nonna",
-            "foto": "",
+            "foto": "torteDellaNonna.jpg",
             "text": ""
         },
         {
+            "naam": "Chocoladecake met peer en amandelen",
+            "foto": "chocoladecakePeerAmandel.jpg",
+            "text": ""
+        },
+        {
+            "naam": "American Cheesecake",
+            "foto": "cheesecake.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Kriekentaart",
+            "foto": "kriekentaart.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Bedekte kriekentaart",
+            "foto": "kriekentaartBedekt.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Bourbon",
+            "foto": "bourbon.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Florida",
+            "foto": "florida.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Gin Citroen",
+            "foto": "ginCitroen.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Goed Gevoel",
+            "foto": "goedGevoel.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Tarte Maison",
+            "foto": "tarteMaison.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Geflambeerde perentaart",
+            "foto": "perentaartFlambee.jpg",
+            "text": ""
+        },        {
             "naam": "Gateaux taart",
             "foto": "",
             "text": ""
@@ -423,24 +492,8 @@
             "text": ""
         },
         {
-            "naam": "Chocoladecake met peer en amandelen",
-            "foto": "chocoladecakePeerAmandel.jpg",
-            "text": ""
-        },
-        {
-            "naam": "American Cheesecake",
-            "foto": "cheesecake.jpg",
-            "text": ""
-        },
-        {
-            "naam": "Kriekentaart",
-            "foto": "kriekentaart.jpg",
-            "text": ""
-        }
-        ,
-        {
-            "naam": "Bedekte kriekentaart",
-            "foto": "kriekentaartBedekt.jpg",
+            "naam": "Mattentaart",
+            "foto": "",
             "text": ""
         }
 
@@ -480,6 +533,81 @@
             "naam": "Zwaantje",
             "foto": "zwaantje.jpg",
             "text": ""
+        },
+        {
+            "naam": "Bananen gebakje met slagroom",
+            "foto": "bananenGebakSlagroom.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Biscuit gebakje met slagroom & aardbei",
+            "foto": "biscuitSlagroomAardbei.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Biscuit gebakje met slagroom & mandarijn",
+            "foto": "biscuitSlagroomMandarijn.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Bloemschelpje",
+            "foto": "bloemschelpje.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Crème au beurre advokaat & vanille",
+            "foto": "cbAdvokaatVanille.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Chocomousse",
+            "foto": "chocomousse.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Eclair met slagroom & aardbei",
+            "foto": "eclairSlagroomAardbei.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Eclair met slagroom & krieken",
+            "foto": "eclairSlagroomKrieken.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Flan bresilienne",
+            "foto": "flanBresilienneGebak.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Frambozenbavarois",
+            "foto": "frambozenBavarois.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Fruittaartje met slagroom",
+            "foto": "fruittaartjeSlagroom.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Kriekentaartje met slagroom",
+            "foto": "kriekentaartjeSlagroom.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Merveilleux",
+            "foto": "merveilleux.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Passiebavarois",
+            "foto": "passieBavarois.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Saint-Honoré",
+            "foto": "saintHonoree.jpg",
+            "text": ""
         }
     ],
     "seizoen": [
@@ -496,12 +624,12 @@
     ],
     "special": [
         {
-            "naam": "American Cakes",
-            "foto": "americanCake.jpg",
+            "naam": "American Cake - Unicorn",
+            "foto": "acUnicorn.jpg",
             "text": ""
         },
         {
-            "naam": "Fototaarten",
+            "naam": "Fototaart - ...",
             "foto": "",
             "text": ""
         }
