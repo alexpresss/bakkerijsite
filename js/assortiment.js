@@ -1,16 +1,13 @@
 let container = $(".portfolio-items");
 
 $(function(){
-    $.ajax({
-        'async': true,
-        'url': "js/assortiment.json",
-        'success': function (data) {
-            loadHTML(data);
-            magnific();
-            setTimeout(() =>{
-                  $('[data-filter=".brood"]').trigger("click");
-            },2500);
-        }
+    $.getJSON("js/assortiment.json", (data) => {
+        loadHTML(data);
+        magnific();
+    }).done(() => {
+        setTimeout(() =>{
+            $('[data-filter=".brood"]').trigger("click");
+        },2500);
     });
 });
 
