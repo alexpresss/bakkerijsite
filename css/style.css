@@ -1061,9 +1061,16 @@ a.scrollup:hover {
 /* --- Media Screens --- */
 
 @media (max-width: 1260px){
+  /* --- Icons --- */
   .icons .icon-col{
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+@media (max-width: 1200px){
+  /* --- News --- */
+  #news.container iframe{
+    height: 1000px;
   }
 }
 
@@ -1171,7 +1178,12 @@ a.scrollup:hover {
     margin: 0px;
   }
 }
-
+@media (max-width: 682px){
+  /* --- News --- */
+  #news.container iframe{
+    height: 1000px;
+  }
+}
 @media (max-width: 600px){
   /* --- feature icons --- */
   .icons .text-center i{
@@ -1201,5 +1213,14 @@ a.scrollup:hover {
 
   .icons h2{
     font-size: 10px;
+  }
+
+  /* --- News --- */
+  #news.container iframe{
+    height: 1750px;
+  }
+
+  #news.latest.grey{
+    height: 1900px;
   }
 }
