@@ -4,10 +4,6 @@ $(function(){
     $.getJSON("js/assortiment.json", (data) => {
         loadHTML(data);
         magnific();
-    }).done(() => {
-        setTimeout(() =>{
-            $('[data-filter=".brood"]').trigger("click");
-        },2500);
     });
 });
 
