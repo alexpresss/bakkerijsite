@@ -818,7 +818,7 @@ ul.social-network li a {
   -o-transition: all 0.9s ease 0s;
   border: 1px solid #F2F2F2;
   outline: none;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .portfolio-filter>li a:hover,
@@ -828,6 +828,41 @@ ul.social-network li a {
   border: 1px solid #DE236D;
   box-shadow: none;
   -webkit-box-shadow: none;
+}
+
+.btn-default.focus,
+.btn-default:focus {
+    color: #fff;
+    background-color: #DE236D;
+    border-color: #DE236D
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #DE236D;
+    border-color: #DE236D
+}
+
+.btn-default.active,
+.btn-default:active,
+.open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #DE236D;
+    border-color: #DE236D
+}
+
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: #DE236D;
+    border-color: #DE236D
 }
 
 .portfolio-items>li {
