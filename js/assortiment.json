@@ -155,7 +155,7 @@
         },
         {
             "naam": "Zebrakoek",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
@@ -225,7 +225,7 @@
         },
         {
             "naam": "Crème-rum-rozijnen",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
@@ -255,7 +255,7 @@
         },
         {
             "naam": "Kriekenflap",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
@@ -270,17 +270,17 @@
         },
         {
             "naam": "Aardbeibootje",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Appelstrüdel",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Botercake",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
@@ -319,7 +319,7 @@
         },
         {
             "naam": "Frangipanne met appel",
-            "foto": "",
+            "foto": "frAppel.jpg",
             "text": ""
         },
         {
@@ -358,7 +358,7 @@
             "text": ""
         },
         {
-            "naam": "Fruittaart",
+            "naam": "Fruittaart met zachte deeg",
             "foto": "fruittaart.jpg",
             "text": ""
         },
@@ -368,7 +368,7 @@
             "text": ""
         },
         {
-            "naam": "Fruittaart met slagroom",
+            "naam": "Fruittaart met zachte deeg & slagroom",
             "foto": "ftSlagroom.jpg",
             "text": ""
         },
@@ -432,68 +432,68 @@
             "foto": "perentaartFlambee.jpg",
             "text": ""
         },        {
-            "naam": "Gateaux taart",
-            "foto": "",
+            "naam": "Gateaux met slagroom & fruit",
+            "foto": "gateauxSlagroom&Fruit.jpg",
             "text": ""
         },
         {
             "naam": "Foret Noire",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Javanais",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Miserable",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Frambozenbavarois",
-            "foto": "",
+            "foto": "frambozenBavarois.jpg",
             "text": ""
         },
         {
             "naam": "Aardbeienbavarois",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Gateau Neige",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Profiteroltaart",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Passievruchtenbavarois",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Saint-Amour",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Saint-Honoré",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Chocolademoussetaart",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         },
         {
             "naam": "Mattentaart",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         }
 
@@ -617,8 +617,38 @@
             "text": ""
         },
         {
-            "naam": "",
-            "foto": "",
+            "naam": "Valentijn - Eclairs",
+            "foto": "valentijnsEclairs.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Valentijn - Fruittaart",
+            "foto": "valentijnsFruittaart.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Valentijn - Fruittaart met slagroom",
+            "foto": "valentijnsFruittaartSlagroom.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Valentijn - Gateaux met aardbei",
+            "foto": "valentijnsGateauxAardbei.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Valentijn - Valentijnsgebakje",
+            "foto": "valentijnsGebakje.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Valentijn - Valentijnsgebakje met passievrucht & frambozen",
+            "foto": "valentijnsGebakjePassie&Frambozen.jpg",
+            "text": ""
+        },
+        {
+            "naam": "Valentijn - Taartje voor twee",
+            "foto": "valentijnsTaartjeVoor2.jpg",
             "text": ""
         }
     ],
@@ -627,10 +657,22 @@
             "naam": "American Cake - Unicorn",
             "foto": "acUnicorn.jpg",
             "text": ""
+        },{
+            "naam": "American Cake - Unicorn met regenboog",
+            "foto": "acUnicornRegenboog.jpg",
+            "text": ""
+        },{
+            "naam": "American Cake - K3",
+            "foto": "acK3.jpg",
+            "text": ""
+        },{
+            "naam": "American Cake - First birthday",
+            "foto": "acFirstBirth.jpg",
+            "text": ""
         },
         {
             "naam": "Fototaart - ...",
-            "foto": "",
+            "foto": "commingsoon.jpg",
             "text": ""
         }
     ]
