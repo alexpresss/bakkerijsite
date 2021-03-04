@@ -1080,18 +1080,30 @@ a.scrollup:hover {
   font-size: 200px;
   font-weight: bold;
   margin: 0px;
+  text-shadow: 0px 0px 15px white;
 }
 
 .error h2{
   margin: 0px;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
+  text-shadow: 0px 0px 15px white;
 }
 
 .error p{
   padding-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px  #fff, -1px -2px 5px  #fff, 1px -1px 5px  #fff, -1px 1px 5px  #fff;
 }
+
+.cupcake-bg{
+  background-image: url("../images/404.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 32%;
+}
+
+
 
 /* --- Media Screens --- */
 
@@ -1106,6 +1118,11 @@ a.scrollup:hover {
   /* --- News --- */
   #news.container iframe{
     height: 1000px;
+  }
+
+  /* --- 404 --- */
+  .cupcake-bg{
+    background-size: 45%;
   }
 }
 
@@ -1132,6 +1149,11 @@ a.scrollup:hover {
 
   .icons .icon-col{
     padding: 0px;
+  }
+
+  /* --- 404 --- */
+  .cupcake-bg{
+    background-size: 50%;
   }
 }
 
@@ -1164,6 +1186,11 @@ a.scrollup:hover {
     color: #fff;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  /* --- 404 --- */
+  .cupcake-bg{
+    background-size: 70%;
   }
 }
 
@@ -1212,6 +1239,9 @@ a.scrollup:hover {
     font-weight: bold;
     margin: 0px;
   }
+  .cupcake-bg{
+    background-size: 80%;
+  }
 }
 @media (max-width: 682px){
   /* --- News --- */
@@ -1257,5 +1287,20 @@ a.scrollup:hover {
 
   #news.latest.grey{
     height: 1900px;
+  }
+
+  /* --- 404 --- */
+  .cupcake-bg{
+    background-image: url("../images/404.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+@media (max-width: 450px){
+
+  /* --- 404 --- */
+  .cupcake-bg{
+    background-size: 120%;
   }
 }
