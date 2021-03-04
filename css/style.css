@@ -1098,7 +1098,7 @@ a.scrollup:hover {
 
 .cupcake-bg{
   background-image: url("../images/404.jpg");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: 32%;
 }
