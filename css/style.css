@@ -235,6 +235,17 @@ a:hover {
   display: none;
 }
 
+.slogan-img{
+  width: 400px;
+  filter: invert(100%);
+}
+
+.slogan-img-mobile{
+  width: 80px;
+  filter: invert(100%);
+  display: none;
+}
+
 .slider-text h2 {
   color: #fff;
   text-transform: uppercase;
@@ -1106,7 +1117,39 @@ a.scrollup:hover {
 
 
 /* --- Media Screens --- */
-
+@media (max-width: 1680px){
+  /* --- slider --- */
+  .slider-text {
+    padding: 50px;
+    position: absolute;
+    top: 50px;
+  }
+  .slogan-img{
+    width: 350px;
+  }
+}
+@media (max-width: 1450px){
+  /* --- slider --- */
+  .slider-text {
+    padding: 50px;
+    position: absolute;
+    top: 60px;
+  }
+  .slogan-img{
+    width: 260px;
+  }
+}
+@media (max-width: 1300px){
+  /* --- slider --- */
+  .slider-text {
+    padding: 50px;
+    position: absolute;
+    top: 90px;
+  }
+  .slogan-img{
+    width: 200px;
+  }
+}
 @media (max-width: 1260px){
   /* --- Icons --- */
   .icons .icon-col{
@@ -1115,6 +1158,24 @@ a.scrollup:hover {
   }
 }
 @media (max-width: 1200px){
+  /* --- slider --- */
+  .slider-text {
+    position: absolute;
+    top: 45px;
+  }
+
+  .slider-text h2{
+    font-size: 50px;
+  }
+
+  .slider-text .slogan {
+    font-size: 20px;
+  }
+
+  .slogan-img{
+    width: 180px;
+  }
+
   /* --- News --- */
   #news.container iframe{
     height: 1000px;
@@ -1142,6 +1203,24 @@ a.scrollup:hover {
     padding: 15px;
   }
 
+  /* --- slider --- */
+  .slider-text {
+    position: absolute;
+    top: 10px;
+  }
+
+  .slider-text h2{
+    font-size: 40px;
+  }
+
+  .slider-text .slogan {
+    font-size: 20px;
+  }
+
+  .slogan-img{
+    width: 180px;
+  }
+
   /* --- Feature & Icons --- */
   .feature{
     padding: 10px;
@@ -1165,17 +1244,16 @@ a.scrollup:hover {
   }
 
   .slider-text {
-    padding: 0px;
     position: absolute;
-    top: 55px;
+    top: 15px;
   }
 
   .slider-text h2{
-    font-size: 20px;
+    font-size: 35px;
   }
 
   .slider-text .slogan {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   #main-slider .carousel .slide-margin {
@@ -1186,6 +1264,10 @@ a.scrollup:hover {
     color: #fff;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .slogan-img{
+    width: 150px;
   }
 
   /* --- 404 --- */
@@ -1232,6 +1314,17 @@ a.scrollup:hover {
     border-color: #f3f3f3;
   }
 
+  /* --- slider --- */
+  .slider-text {
+    padding: 10px;
+    position: absolute;
+    top: 55px;
+  }
+
+  .slogan-img{
+    width: 100px;
+  }
+
   /* --- 404 --- */
   .error h1{
     color:#333333;
@@ -1249,7 +1342,35 @@ a.scrollup:hover {
     height: 1000px;
   }
 }
+@media (max-width: 650px){
+  /* --- slider --- */
+  .slider-text{
+    width: 610px;
+  }
+
+  .slider-text .slogan {
+    font-size: 15px;
+  }
+
+  .slogan-img{
+    display: none; 
+  }
+
+  .slogan-img-mobile{
+    float: right;
+    display: flex
+  }
+}
 @media (max-width: 600px){
+  /* --- slider --- */
+  .slider-text{
+    width: 520px;
+  }
+
+  .slider-text h2{
+    font-size: 25px;
+  }
+
   /* --- feature icons --- */
   .icons .text-center i{
     font-size: 20px;
@@ -1297,7 +1418,29 @@ a.scrollup:hover {
     background-size: 100%;
   }
 }
+@media (max-width: 520px){
+  /* --- slider --- */
+  .slider-text{
+    width: 460px;
+  }
+}
 @media (max-width: 450px){
+  /* --- slider --- */
+  .slider-text{
+    width: 360px;
+  }
+
+  .slider-text .slogan {
+    font-size: 10px;
+  }
+
+  .slider-text h2{
+    font-size: 20px;
+  }
+
+  .slogan-img-mobile{
+    width: 60px;
+  }
 
   /* --- 404 --- */
   .cupcake-bg{
