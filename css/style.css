@@ -601,7 +601,9 @@ a:hover {
 }
 
 .grey {
-  background: #eee;
+  /*background: #eee;*/
+  background: url(/images/marble.jpg);
+  background-size: cover;
 }
 
 
