@@ -98,7 +98,7 @@
           <h2>Een kijkje in onze bakkerij</h2>
         </div>
         <div class="video" data-reveal>
-          <iframe src="https://www.youtube-nocookie.com/embed/6JPZLPnJ_ik" title="Bakkerij Muylaert in beeld" loading="lazy"
+          <iframe src="https://www.youtube-nocookie.com/embed/6JPZLPnJ_ik" title="Bakkerij Muylaert in beeld" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
