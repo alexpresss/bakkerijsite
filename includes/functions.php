@@ -90,6 +90,51 @@ function bakery_json_ld(array $config)
     return json_encode($data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG);
 }
 
+/**
+ * Het pad naar de kerstfolder die nu getoond moet worden, of null als er geen is.
+ * In de kerstperiode is dat assets/kerstfolder<jaar>.pdf; in januari telt het jaar van de voorbije kerst.
+ */
+function kerstfolder_pdf(array $settings, $today = null)
+{
+    $dir = dirname(__DIR__) . '/assets';
+
+    if ($settings['mode'] === 'on') {
+        $files = glob($dir . '/kerstfolder[0-9][0-9][0-9][0-9].pdf');
+        if (!$files) {
+            return null;
+        }
+        sort($files);
+        return '/assets/' . basename(end($files));
+    }
+    if ($settings['mode'] !== 'auto') {
+        return null;
+    }
+
+    if ($today === null) {
+        $today = new DateTime('now', new DateTimeZone('Europe/Brussels'));
+    }
+    $day = $today->format('m-d');
+    $year = (int) $today->format('Y');
+    $from = $settings['from'];
+    $until = $settings['until'];
+
+    if ($from <= $until) {
+        $inPeriod = $day >= $from && $day <= $until;
+    } else {
+        // De periode loopt over nieuwjaar: na 1 januari hoort ze nog bij de kerst van vorig jaar
+        $inPeriod = $day >= $from || $day <= $until;
+        if ($day <= $until) {
+            $year--;
+        }
+    }
+    if (!$inPeriod) {
+        return null;
+    }
+
+    $file = 'kerstfolder' . $year . '.pdf';
+    return is_file($dir . '/' . $file) ? '/assets/' . $file : null;
+}
+
 /** Sorteer producten op naam, zonder onderscheid tussen hoofdletters of accenten. */
 function sort_by_name(array $items)
 {

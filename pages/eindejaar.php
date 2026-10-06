@@ -19,7 +19,7 @@
             <p>Ook American cake's zijn dan niet te verkrijgen. Na de feestdagen kunnen wij terug aan jullie wensen
               voldoen.</p>
           </div>
-          <a class="btn" href="<?= e($config['kerstfolder_pdf']) ?>" download="Kerstfolder-bakkerij-muylaert"><i class="fas fa-download" aria-hidden="true"></i>Download onze kerstfolder</a>
+          <a class="btn" href="<?= e($kerstfolder) ?>" download="Kerstfolder-bakkerij-muylaert"><i class="fas fa-download" aria-hidden="true"></i>Download onze kerstfolder</a>
         </div>
       </div>
     </section>
@@ -27,7 +27,7 @@
     <section class="section section--marble" style="padding-top:clamp(32px,5vw,56px)">
       <div class="wrap">
         <div class="embed-card">
-          <iframe class="pdf-frame" src="<?= e($config['kerstfolder_pdf']) ?>" title="Kerstfolder Bakkerij Muylaert"></iframe>
+          <iframe class="pdf-frame" src="<?= e($kerstfolder) ?>" title="Kerstfolder Bakkerij Muylaert"></iframe>
         </div>
       </div>
     </section>

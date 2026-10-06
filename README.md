@@ -16,7 +16,7 @@ Website van Bakkerij Muylaert. PHP zonder framework of database.
 ## Veelvoorkomende aanpassingen
 
 - **Openingsuren, telefoon, adres:** `includes/config.php`. De wijziging komt automatisch in de footer, op de contactpagina en in de gegevens voor Google.
-- **Kerstfolder in het menu:** zet `show_kerstfolder` op `true` in `includes/config.php` en pas `kerstfolder_pdf` aan naar de nieuwe pdf in `assets/`.
+- **Kerstfolder:** zet de pdf in `assets/` als `kerstfolder<jaar>.pdf` (bv. `kerstfolder2026.pdf`). Van 1 december tot en met 1 januari staat "Kerstfolder" dan vanzelf in het menu; daarbuiten bestaat de pagina `/eindejaar` niet. De periode, of altijd/nooit tonen, stel je in onder `kerstfolder` in `includes/config.php`.
 - **Product toevoegen:** voeg het toe in `js/assortiment.json` en zet de foto met dezelfde bestandsnaam in `images/assortiment/min` (klein) en `images/assortiment/full` (groot).
 - **Nieuwe pagina:** maak `pages/naam.php` en voeg ze toe onder `pages` in `includes/config.php`.
 

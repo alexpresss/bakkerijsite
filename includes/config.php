@@ -32,9 +32,15 @@ return [
         ['label' => 'Zondag',               'days' => [0],    'open' => '07:00', 'close' => '12:00'],
     ],
 
-    // Zet op true om "Kerstfolder" in het menu te tonen (de pagina /eindejaar bestaat altijd).
-    'show_kerstfolder' => false,
-    'kerstfolder_pdf'  => '/assets/kerstfolder2025.pdf',
+    // De kerstfolder verschijnt vanzelf in het menu tijdens de kerstperiode, op voorwaarde dat
+    // de pdf van dat jaar in assets/ staat als kerstfolder<jaar>.pdf (bv. kerstfolder2026.pdf).
+    // mode: 'auto' = volgens de periode, 'on' = altijd tonen (nieuwste pdf), 'off' = nooit tonen.
+    // from/until: maand-dag, beide inbegrepen. De periode mag over nieuwjaar lopen.
+    'kerstfolder' => [
+        'mode'  => 'auto',
+        'from'  => '12-01',
+        'until' => '01-01',
+    ],
 
     // URL => pagina. 'nav' is de naam in het menu; zonder 'nav' staat de pagina niet in het menu.
     'pages' => [

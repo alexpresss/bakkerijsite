@@ -22,7 +22,10 @@ if (($clean !== $slug || $hasTrailingSlash) && isset($config['pages'][$clean])) 
     exit;
 }
 
-if (isset($config['pages'][$slug])) {
+// Buiten de kerstperiode (of zonder pdf van dit jaar) bestaat de kerstfolderpagina niet
+$kerstfolder = kerstfolder_pdf($config['kerstfolder']);
+
+if (isset($config['pages'][$slug]) && ($slug !== 'eindejaar' || $kerstfolder !== null)) {
     $page = $config['pages'][$slug];
 } else {
     http_response_code(404);

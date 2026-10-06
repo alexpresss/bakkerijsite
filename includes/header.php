@@ -67,7 +67,7 @@
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Hoofdnavigatie">
 <?php foreach ($config['pages'] as $navSlug => $navPage): ?>
-<?php if (empty($navPage['nav']) || ($navSlug === 'eindejaar' && !$config['show_kerstfolder'])) { continue; } ?>
+<?php if (empty($navPage['nav']) || ($navSlug === 'eindejaar' && $kerstfolder === null)) { continue; } ?>
         <a href="/<?= e($navSlug) ?>"<?= $navSlug === $slug ? ' aria-current="page"' : '' ?>><?= e($navPage['nav']) ?></a>
 <?php endforeach; ?>
         <a class="nav-cta" href="tel:<?= e($config['phone_link']) ?>"><i class="fas fa-phone" aria-hidden="true"></i><?= e($config['phone_nav']) ?></a>
