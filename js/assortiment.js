@@ -1,70 +1,35 @@
 (() => {
-  const LABELS = {
-    brood: 'Brood',
-    koeken: 'Koeken',
-    taarten: 'Taart',
-    gebak: 'Gebak',
-    seizoen: 'Seizoensartikelen',
-    special: "American cake's & fototaarten"
-  };
-
+  // The product cards are rendered by pages/assortiment.php; this adds filtering, search and the lightbox.
   const grid = document.querySelector('.products');
+  if (!grid) return;
+
   const filters = [...document.querySelectorAll('.filter')];
   const search = document.querySelector('#zoek');
   const count = document.querySelector('.result-count');
   const empty = document.querySelector('.empty');
-  if (!grid) return;
-
-  let products = [];
+  const categories = filters.map(button => button.dataset.filter);
   let activeFilter = 'alles';
 
   const normalize = text => text.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
-  const el = (tag, className, text) => {
-    const node = document.createElement(tag);
-    if (className) node.className = className;
-    if (text) node.textContent = text;
-    return node;
-  };
+  const products = [...grid.querySelectorAll('.product')].map(card => {
+    const media = card.querySelector('.product__media');
+    const title = card.querySelector('h3').textContent;
+    const description = card.querySelector('p');
+    const text = description ? description.textContent : '';
+    return {
+      card,
+      media,
+      category: card.dataset.category,
+      haystack: normalize(title + ' ' + text),
+      lightbox: { src: media.dataset.full, thumb: media.querySelector('img').getAttribute('src'), title, text }
+    };
+  });
 
-  function render(data) {
-    for (const category in data) {
-      const list = data[category].sort((a, b) => a.naam.localeCompare(b.naam, 'nl'));
-      list.forEach(item => {
-        const card = el('li', 'product');
-        const thumb = 'images/assortiment/min/' + item.foto;
-        const media = el('button', 'product__media');
-        media.type = 'button';
-        media.setAttribute('aria-label', 'Vergroot foto van ' + item.naam);
-        const img = el('img');
-        img.src = '/' + thumb;
-        img.alt = item.naam;
-        img.loading = 'lazy';
-        img.decoding = 'async';
-        img.width = 520;
-        img.height = 520;
-        media.append(img);
-
-        const body = el('div', 'product__body');
-        body.append(el('span', 'product__cat', LABELS[category] || category), el('h3', '', item.naam));
-        if (item.text) body.append(el('p', '', item.text));
-        card.append(media, body);
-        grid.append(card);
-
-        const product = {
-          card,
-          category,
-          haystack: normalize(item.naam + ' ' + item.text),
-          lightbox: { src: '/images/assortiment/full/' + item.foto, thumb: '/' + thumb, title: item.naam, text: item.text }
-        };
-        media.addEventListener('click', () => {
-          const visible = products.filter(p => !p.card.hidden);
-          window.Lightbox.open(visible.map(p => p.lightbox), visible.indexOf(product));
-        });
-        products.push(product);
-      });
-    }
-  }
+  products.forEach(product => product.media.addEventListener('click', () => {
+    const visible = products.filter(p => !p.card.hidden);
+    window.Lightbox.open(visible.map(p => p.lightbox), visible.indexOf(product));
+  }));
 
   function apply() {
     const query = normalize(search.value.trim());
@@ -81,7 +46,7 @@
   }
 
   function setFilter(filter, updateHash) {
-    activeFilter = LABELS[filter] ? filter : 'alles';
+    activeFilter = categories.includes(filter) ? filter : 'alles';
     if (updateHash) history.replaceState(null, '', activeFilter === 'alles' ? location.pathname : '#' + activeFilter);
     apply();
   }
@@ -89,16 +54,5 @@
   filters.forEach(button => button.addEventListener('click', () => setFilter(button.dataset.filter, true)));
   search.addEventListener('input', apply);
   addEventListener('hashchange', () => setFilter(location.hash.slice(1), false));
-
-  fetch('/js/assortiment.json')
-    .then(response => response.json())
-    .then(data => {
-      render(data);
-      setFilter(location.hash.slice(1), false);
-    })
-    .catch(() => {
-      count.textContent = '';
-      empty.textContent = 'Het assortiment kon niet geladen worden. Probeer het later opnieuw.';
-      empty.hidden = false;
-    });
+  setFilter(location.hash.slice(1), false);
 })();
