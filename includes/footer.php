@@ -8,9 +8,9 @@
         <p>Brood &amp; Gebak Muylaert<br>Peter &amp; Ilse</p>
         <ul class="social">
 <?php foreach ($config['social'] as $social): ?>
-          <li><a href="<?= e($social['url']) ?>" target="_blank" rel="noopener" aria-label="<?= e($social['label']) ?>"><i class="<?= e($social['icon']) ?>" aria-hidden="true"></i></a></li>
+          <li><a class="social__<?= e(strtolower($social['label'])) ?>" href="<?= e($social['url']) ?>" target="_blank" rel="noopener" aria-label="<?= e($social['label']) ?>"><i class="<?= e($social['icon']) ?>" aria-hidden="true"></i></a></li>
 <?php endforeach; ?>
-          <li><a href="<?= e($config['maps']) ?>" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fas fa-map-marked-alt" aria-hidden="true"></i></a></li>
+          <li><a class="social__maps" href="<?= e($config['maps']) ?>" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fas fa-map-marked-alt" aria-hidden="true"></i></a></li>
           <li><a href="mailto:<?= e($config['email']) ?>" aria-label="E-mail"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
         </ul>
       </div>

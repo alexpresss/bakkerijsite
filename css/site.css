@@ -1543,13 +1543,34 @@ a.info-item:hover {
   background: rgba(255, 255, 255, .08);
   color: #fff;
   font-size: 17px;
-  transition: background .15s ease, transform .15s ease;
+  transition: color .2s ease, transform .15s ease;
 }
 
-.social a:hover {
-  background: var(--pink);
-  color: #fff;
+/* On hover only the icon takes the network's own colour; the button itself stays as it is */
+.site-footer .social a:hover,
+.site-footer .social a:focus-visible {
+  color: var(--brand, var(--pink-on-dark));
   transform: translateY(-2px);
+}
+
+.social__facebook {
+  --brand: #1877F2;
+}
+
+.social__instagram:hover i,
+.social__instagram:focus-visible i {
+  background: radial-gradient(circle at 30% 107%, #FDF497 0%, #FDF497 5%, #FD5949 45%, #D6249F 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.social__youtube {
+  --brand: #FF0000;
+}
+
+.social__maps {
+  --brand: #34A853;
 }
 
 .footer-contact {
